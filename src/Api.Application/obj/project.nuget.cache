@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g0Lw7ob2dJjLTT1GA0mjaocomqz0sGYb0Hic2xtuWxq4rMhxM653hI3mhej8GtDGuXo7dLgtQ0AKxlTJ0KUwuA==",
+  "success": true,
+  "projectFilePath": "D:\\Gean\\Estudo\\CleanArchitecture\\ArquiteturaDoProjeto_API\\src\\Api.Application\\application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gndi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
