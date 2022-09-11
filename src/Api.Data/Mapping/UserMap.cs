@@ -1,8 +1,8 @@
-﻿using Domain.Entities;
+using Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Data.Mapping
+namespace Api.Data.Mapping
 {
     public class UserMap : IEntityTypeConfiguration<UserEntity>
     {
@@ -10,9 +10,9 @@ namespace Data.Mapping
         {
             builder.ToTable("User");
 
-            builder.HasKey(p => p.Id);
+            builder.HasKey(u => u.Id);
 
-            builder.HasIndex(p => p.Email)
+            builder.HasIndex(u => u.Email)
                    .IsUnique();
 
             builder.Property(u => u.Name)
@@ -21,7 +21,6 @@ namespace Data.Mapping
 
             builder.Property(u => u.Email)
                    .HasMaxLength(100);
-
         }
     }
 }

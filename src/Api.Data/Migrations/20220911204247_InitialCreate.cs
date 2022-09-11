@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Data.Migrations
 {
-    public partial class UserMigration : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,6 +13,7 @@ namespace Data.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     CreateAt = table.Column<DateTime>(nullable: true),
+                    UpdateAt = table.Column<DateTime>(nullable: true),
                     Name = table.Column<string>(maxLength: 60, nullable: false),
                     Email = table.Column<string>(maxLength: 100, nullable: true)
                 },

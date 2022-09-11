@@ -1,7 +1,6 @@
-﻿using Domain.Entities;
+﻿using Api.Domain.Entities;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Domain.Interfaces.Service.User
